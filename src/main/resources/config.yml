@@ -1,0 +1,67 @@
+database:
+  hostname: "localhost"
+  port: 3306
+  username: "arcaneroot"
+  password: "KjfM8yarbyKy"
+  database: "arcanemc"
+  table: "ninjas"
+armor:
+  helmets: #RGB String for the color of the helm in the respective slot (see chart)
+    - ''
+    - ''
+    - '255,000,255'
+    - '255,150,150'
+    - '000,255,000'
+    - '000,000,255'
+    - '000,150,150'
+    - ''
+    - ''
+  chestplates:
+    - '' # 9
+    - ''
+    - '255,000,255'
+    - '255,150,150'
+    - '000,255,000'
+    - '000,000,255'
+    - '000,150,150'
+    - ''
+    - ''
+  leggings:
+    - ''
+    - ''
+    - '255,000,255'
+    - '255,150,150'
+    - '000,255,000'
+    - '000,000,255'
+    - '000,150,150'
+    - ''
+    - ''
+  boots:
+    - ''
+    - ''
+    - '255,000,255'
+    - '255,150,150'
+    - '000,255,000'
+    - '000,000,255'
+    - '000,150,150'
+    - ''
+    - ''
+  price: 250
+players:
+  startingBalance: 1000
+games:
+  1:
+    lobby: "0,100,0"
+    lobbyworld: "world"
+    corner1: "10,100,10"
+    corner2: "20,100,20"
+    world: "world"
+    maxplayers: 10
+
+    #| < |   |   |   | $ |   |   |   |   |
+    #|   |   | 1 | 2 | 3 | 4 | 5 |   |   | Helms
+    #|   |   | 1 | 2 | 3 | 4 | 5 |   |   | Chest
+    #|   |   | 1 | 2 | 3 | 4 | 5 |   |   | Leggs
+    #|   |   | 1 | 2 | 3 | 4 | 5 |   |   | Boots
+
+  # - '255,0,255' <- makes purple

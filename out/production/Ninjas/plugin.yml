@@ -1,0 +1,6 @@
+name: Ninjas
+main: net.arcanemc.ninjas.Main
+website: arcanemc.net
+version: 0.0.1-ALPHA
+commands:
+  ninjas:
